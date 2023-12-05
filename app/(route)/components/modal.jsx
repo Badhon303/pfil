@@ -2,7 +2,6 @@
 
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
-import jwt from "jsonwebtoken"
 
 import { useEffect, useState } from "react"
 import { useRouter, redirect } from "next/navigation"
@@ -30,7 +29,6 @@ const Modal = ({ token }) => {
   const [loading, setLoading] = useState(false)
   const [valid, setValid] = useState(false)
   const [isClient, setIsClient] = useState(false)
-  // console.log("token: ", token)
 
   useEffect(() => {
     if (user.email.length > 0 && user.password.length > 0) {
@@ -47,12 +45,7 @@ const Modal = ({ token }) => {
   const handleClick = () => {
     try {
       if (token) {
-        // const decodedToken = jwt.verify(token, process.env.JWT_TOKEN_SECRET)
-        // console.log("token: ", token)
         setValid(true)
-        // if (decodedToken) {
-        //   setValid(true)
-        // }
       } else {
         console.error("Token is undefined or null")
         setValid(false)
