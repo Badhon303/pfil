@@ -44,7 +44,7 @@ export default function Home() {
           </div>
         </Link>
       </div>
-      <CookieDelete />
+      {token ? <CookieDelete /> : null}
     </div>
   )
 }
