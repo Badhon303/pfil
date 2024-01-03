@@ -2,6 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import Modal from "./(route)/components/modal"
 import ModalServer from "./(route)/components/modalServer"
+import ModalNagad from "./(route)/components/modalNagad"
 import { cookies } from "next/headers"
 import CookieDelete from "@/components/cookieDelete"
 
@@ -45,6 +46,7 @@ export default function Home() {
           </div>
         </Link>
         <ModalServer token={token} />
+        <ModalNagad token={token} />
       </div>
       {token ? <CookieDelete /> : null}
     </div>
