@@ -124,7 +124,9 @@ body {
 
 .left,
 .right {
-  text-align: center;
+  /* text-align: center;
+  justify-content: center;
+  align-items: center; */
   padding-top: 70px;
   padding-bottom: 70px;
   padding-inline: 100px;

@@ -16,7 +16,13 @@ export default function Home() {
       <div className="row">
         <Link href="/cashtransaction" style={{ textDecoration: "none" }}>
           <div className="left">
-            <Image src="/cash.png" alt="Snow" width={150} height={150} />
+            <Image
+              className="mx-auto"
+              src="/cash.png"
+              alt="Snow"
+              width={100}
+              height={100}
+            />
             <p
               style={{
                 paddingTop: "10px",
