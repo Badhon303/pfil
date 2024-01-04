@@ -75,7 +75,7 @@ const ModalServer = ({ token }) => {
   return (
     <Dialog>
       {isClient ? (
-        <div onClick={() => handleClick()} className="right">
+        <div onClick={() => handleClick()} className="">
           {valid ? (
             redirect("/pfil")
           ) : (

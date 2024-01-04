@@ -11,11 +11,16 @@ export default function Home() {
   const token = cookieStore.get("token")?.value || ""
 
   return (
-    <div className="title">
-      <p style={{ fontSize: "40px", fontWeight: "bold" }}>Projects</p>
-      <div className="row">
+    <div>
+      <p
+        style={{ fontSize: "40px", fontWeight: "bold" }}
+        className="text-center my-20"
+      >
+        Projects
+      </p>
+      <div className="row flex flex-col md:flex-row justify-center items-center space-y-24 md:space-x-24 md:space-y-0  mx-5">
         <Link href="/cashtransaction" style={{ textDecoration: "none" }}>
-          <div className="left">
+          <div className="">
             <Image
               className="mx-auto"
               src="/cash.png"
@@ -28,8 +33,8 @@ export default function Home() {
                 paddingTop: "10px",
                 fontWeight: "bold",
                 fontSize: "20px",
-                // color: "white",
               }}
+              className="text-center"
             >
               Cash Transaction
             </p>
@@ -37,7 +42,7 @@ export default function Home() {
         </Link>
         <Modal token={token} />
         <Link href="/vault" style={{ textDecoration: "none" }}>
-          <div className="right">
+          <div className="">
             <Image src="/new-vault.png" alt="Snow" width={150} height={150} />
             <p
               style={{

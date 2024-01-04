@@ -5,9 +5,11 @@ import { ServerCookieDelete } from "./delete"
 
 const CookieDelete = () => {
   return (
-    <Button onClick={() => ServerCookieDelete()} className="mt-44">
-      Log Out
-    </Button>
+    <div className="text-center">
+      <Button onClick={() => ServerCookieDelete()} className="mt-36">
+        Log Out
+      </Button>
+    </div>
   )
 }
 
