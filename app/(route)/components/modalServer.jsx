@@ -77,7 +77,7 @@ const ModalServer = ({ token }) => {
       {isClient ? (
         <div onClick={() => handleClick()} className="">
           {valid ? (
-            redirect("/pfil")
+            redirect("/pfil-server-240")
           ) : (
             <DialogTrigger className="cursor-pointer">
               <Image src="/phonix.jpg" alt="Snow" width={250} height={150} />
