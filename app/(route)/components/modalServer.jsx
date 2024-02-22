@@ -135,6 +135,12 @@ const ModalServer = ({ token }) => {
                   password: e.target.value,
                 })
               }
+              onKeyDown={(e) => {
+                if (e.key === "Enter" && password !== "") {
+                  e.preventDefault()
+                  onSubmit(e) // Make sure this function uses the current input value
+                }
+              }}
             />
           </div>
         </div>
