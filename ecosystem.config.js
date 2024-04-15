@@ -4,7 +4,7 @@ module.exports = {
       name: "pfil",
       script: "npm",
       args: "start",
-      cwd: "/path/to/your/nextjs/app",
+      cwd: "./",
       watch: true,
       env: {
         NODE_ENV: "production",
