@@ -58,8 +58,8 @@ export default function Home() {
           </div>
         </Link>
         <ModalServer token={token} />
-        <ModalNagad token={token} />
-        <ModalNrb token={token} />
+        {/* <ModalNagad token={token} />
+        <ModalNrb token={token} /> */}
       </div>
       {token ? <CookieDelete /> : null}
     </div>

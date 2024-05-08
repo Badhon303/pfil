@@ -2,7 +2,7 @@ import { cookies } from "next/headers"
 import { redirect } from "next/navigation"
 import jwt from "jsonwebtoken"
 
-const Nagad = () => {
+const Nrb = () => {
   const cookieStore = cookies()
   const token = cookieStore.get("token")?.value || ""
   try {
@@ -26,4 +26,4 @@ const Nagad = () => {
   // )
 }
 
-export default Nagad
+export default Nrb

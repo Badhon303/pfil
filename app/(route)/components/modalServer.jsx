@@ -64,7 +64,7 @@ const ModalServer = ({ token }) => {
     try {
       const response = await axios.post("/api/login", user)
       if (response.status === 200) {
-        router.push("/pfil-server-240")
+        router.push("/deposit-loan")
       }
     } catch (error) {
       console.log(error)
@@ -77,10 +77,10 @@ const ModalServer = ({ token }) => {
       {isClient ? (
         <div onClick={() => handleClick()} className="">
           {valid ? (
-            redirect("/pfil-server-240")
+            redirect("/deposit-loan")
           ) : (
             <DialogTrigger className="cursor-pointer">
-              <Image src="/phonix.jpg" alt="Snow" width={250} height={150} />
+              <Image src="/loan.png" alt="Snow" width={150} height={150} />
               <p
                 style={{
                   paddingTop: "10px",
@@ -88,7 +88,7 @@ const ModalServer = ({ token }) => {
                   fontSize: "20px",
                 }}
               >
-                PFIL Server 240
+                Deposit Loan
               </p>
             </DialogTrigger>
           )}
