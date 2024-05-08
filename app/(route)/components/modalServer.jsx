@@ -64,7 +64,7 @@ const ModalServer = ({ token }) => {
     try {
       const response = await axios.post("/api/login", user)
       if (response.status === 200) {
-        router.push("/deposit-loan")
+        router.push("/deposit-investment")
       }
     } catch (error) {
       console.log(error)
@@ -77,7 +77,7 @@ const ModalServer = ({ token }) => {
       {isClient ? (
         <div onClick={() => handleClick()} className="">
           {valid ? (
-            redirect("/deposit-loan")
+            redirect("/deposit-investment")
           ) : (
             <DialogTrigger className="cursor-pointer">
               <Image src="/loan.png" alt="Snow" width={150} height={150} />

@@ -41,7 +41,7 @@ export default function Home() {
             </p>
           </div>
         </Link>
-        <Modal token={token} />
+        {/* <Modal token={token} /> */}
         <Link href="/vault" style={{ textDecoration: "none" }}>
           <div className="">
             <Image src="/new-vault.png" alt="Snow" width={150} height={150} />
