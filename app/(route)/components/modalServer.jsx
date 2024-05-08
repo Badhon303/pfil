@@ -88,7 +88,7 @@ const ModalServer = ({ token }) => {
                   fontSize: "20px",
                 }}
               >
-                Deposit & Loan
+                Deposit & Investment
               </p>
             </DialogTrigger>
           )}
