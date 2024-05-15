@@ -10,13 +10,13 @@ export default function Home() {
           onClick={() => router.push("/all-projects")}
           className="cursor-pointer"
         >
-          All Projects
+          All
         </div>
         <div
           onClick={() => router.push("/demo-projects")}
           className="cursor-pointer"
         >
-          Demo Projects
+          Demo
         </div>
       </div>
     </div>

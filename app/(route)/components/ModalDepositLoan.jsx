@@ -19,7 +19,7 @@ import {
 } from "@/components/ui/dialog"
 import { Label } from "@/components/ui/label"
 
-const ModalNrb = ({ token }) => {
+const ModalDepositLoan = ({ token }) => {
   const router = useRouter()
   const [user, setUser] = useState({
     email: "",
@@ -64,7 +64,7 @@ const ModalNrb = ({ token }) => {
     try {
       const response = await axios.post("/api/login", user)
       if (response.status === 200) {
-        router.push("/nrb")
+        router.push("/deposit-loan")
       }
     } catch (error) {
       console.log(error)
@@ -77,10 +77,10 @@ const ModalNrb = ({ token }) => {
       {isClient ? (
         <div onClick={() => handleClick()} className="">
           {valid ? (
-            redirect("/nrb")
+            redirect("/deposit-loan")
           ) : (
             <DialogTrigger className="cursor-pointer">
-              <Image src="/nrb.png" alt="Snow" width={250} height={150} />
+              <Image src="/loan.png" alt="Snow" width={150} height={150} />
               <p
                 style={{
                   paddingTop: "10px",
@@ -88,7 +88,7 @@ const ModalNrb = ({ token }) => {
                   fontSize: "20px",
                 }}
               >
-                NRB
+                Deposit & Loan
               </p>
             </DialogTrigger>
           )}
@@ -154,4 +154,4 @@ const ModalNrb = ({ token }) => {
   )
 }
 
-export default ModalNrb
+export default ModalDepositLoan
