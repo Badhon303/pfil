@@ -6,6 +6,8 @@ import ModalServer from "../components/modalServer"
 // import ModalNrb from "./components/modalNrb"
 import { cookies } from "next/headers"
 import CookieDelete from "@/components/cookieDelete"
+import ModalNbp from "../components/modalNbp"
+import ModalPfilFTH from "../components/modalPfilFTH"
 
 const RootPage = () => {
   const cookieStore = cookies()
@@ -59,7 +61,9 @@ const RootPage = () => {
             </p>
           </div>
         </Link>
-        <ModalServer token={token} />
+        {/* <ModalServer token={token} /> */}
+        <ModalNbp token={token} />
+        <ModalPfilFTH token={token} />
         {/* <ModalNagad token={token} />
         <ModalNrb token={token} /> */}
       </div>

@@ -88,7 +88,7 @@ const ModalPfilFTH = ({ token }) => {
                   fontSize: "20px",
                 }}
               >
-                NBP Loan (new)
+                FintechHub
               </p>
             </DialogTrigger>
           )}
