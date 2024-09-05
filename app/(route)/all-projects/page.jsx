@@ -3,6 +3,7 @@ import Link from "next/link"
 import Modal from "../components/modal"
 import ModalServer from "../components/modalServer"
 import ModalNbp from "../components/modalNbp"
+import ModalPfilFTH from "../components/modalPfilFTH"
 import ModalDepositLoan from "../components/ModalDepositLoan"
 import { cookies } from "next/headers"
 import CookieDelete from "@/components/cookieDelete"
@@ -62,6 +63,7 @@ const RootPage = () => {
         <ModalServer token={token} />
         <ModalNbp token={token} />
         <ModalDepositLoan token={token} />
+        <ModalPfilFTH token={token} />
       </div>
       {token ? <CookieDelete /> : null}
     </div>

@@ -17,7 +17,8 @@ const DepositLoan = () => {
       <iframe
         className="frame"
         // src="https://app.powerbi.com/reportEmbed?reportId=3b298925-08e3-43aa-91fb-e0392a632b7b&autoAuth=true&ctid=147d207c-cfb1-4dda-bebc-d96c8cb48eed"
-        src="https://app.powerbi.com/reportEmbed?reportId=abba2a31-680b-49b2-83ba-9380a44f2157&autoAuth=true&ctid=147d207c-cfb1-4dda-bebc-d96c8cb48eed"
+        // src="https://app.powerbi.com/reportEmbed?reportId=abba2a31-680b-49b2-83ba-9380a44f2157&autoAuth=true&ctid=147d207c-cfb1-4dda-bebc-d96c8cb48eed"
+        src="https://app.powerbi.com/reportEmbed?reportId=73d57ce3-5ee9-4eb1-98c2-3ed7104407c8&autoAuth=true&ctid=1db80db5-18b9-4763-98d1-d7dbc2116c81"
         // src="https://app.powerbi.com/reportEmbed?reportId=ed68e0e6-721a-4caf-a428-fe1f9dce3767&autoAuth=true&ctid=147d207c-cfb1-4dda-bebc-d96c8cb48eed"
       ></iframe>
     </div>
