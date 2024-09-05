@@ -18,7 +18,7 @@ const PfilFTH = () => {
         className="frame"
         // src="https://app.powerbi.com/reportEmbed?reportId=3b298925-08e3-43aa-91fb-e0392a632b7b&autoAuth=true&ctid=147d207c-cfb1-4dda-bebc-d96c8cb48eed"
         // src="https://app.powerbi.com/reportEmbed?reportId=5c210569-846c-44f0-b8c5-f742f4b7b617&autoAuth=true&ctid=147d207c-cfb1-4dda-bebc-d96c8cb48eed"
-        src="https://app.powerbi.com/reportEmbed?reportId=c68a62d2-90bb-4f7d-8b40-000fd88477b9&autoAuth=true&ctid=1db80db5-18b9-4763-98d1-d7dbc2116c81"
+        src="https://app.powerbi.com/reportEmbed?reportId=9f6f18f1-769d-4f75-a91a-6449052b6d70&autoAuth=true&ctid=1db80db5-18b9-4763-98d1-d7dbc2116c81"
         // src="https://app.powerbi.com/reportEmbed?reportId=ed68e0e6-721a-4caf-a428-fe1f9dce3767&autoAuth=true&ctid=147d207c-cfb1-4dda-bebc-d96c8cb48eed"
       ></iframe>
     </div>
