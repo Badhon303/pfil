@@ -88,7 +88,7 @@ const ModalPfilFTH = ({ token }) => {
                   fontSize: "20px",
                 }}
               >
-                FintechHub
+                Deposit & investment
               </p>
             </DialogTrigger>
           )}

@@ -80,7 +80,7 @@ const ModalNbp = ({ token }) => {
             redirect("/nbp-loan")
           ) : (
             <DialogTrigger className="cursor-pointer">
-              <Image src="/nbp.jpg" alt="Snow" width={250} height={150} />
+              <Image src="/pfil-fth.png" alt="Snow" width={250} height={150} />
               <p
                 style={{
                   paddingTop: "10px",
@@ -88,7 +88,7 @@ const ModalNbp = ({ token }) => {
                   fontSize: "20px",
                 }}
               >
-                NBP Loan (new)
+                Loan Analytics
               </p>
             </DialogTrigger>
           )}
