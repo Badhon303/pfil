@@ -88,7 +88,7 @@ const ModalPfilFTH = ({ token }) => {
                   fontSize: "20px",
                 }}
               >
-                Deposit & Investment
+                Deposit & Loan
               </p>
             </DialogTrigger>
           )}
